@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="taos.timedestiny"
+    android:versionCode="3"
+    android:versionName="3.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="taos.timedestiny.Main"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="taos.timedestiny.MainMenu"
+            android:label="@string/title_activity_main_menu"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="taos.timedestiny.eventos.Inicio"
+            android:label="@string/title_activity_scene"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="taos.timedestiny.eventos.Guarderia"
+            android:label="@string/title_activity_scene"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="taos.timedestiny.eventos.EventoPrimerDiaCole"
+            android:label="@string/title_activity_scene"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="taos.timedestiny.eventos.Centro"
+            android:label="@string/title_activity_scene"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="taos.timedestiny.menus.Status"
+            android:label="@string/title_activity_status"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="taos.timedestiny.menus.Inventory"
+            android:label="@string/title_activity_inventory"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="taos.timedestiny.menus.MobileScreen"
+            android:label="@string/title_activity_mobile_screen"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="taos.timedestiny.menus.MapaMundi"
+            android:label="@string/title_activity_mapa_mundi"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="taos.timedestiny.menus.Contactos"
+            android:label="@string/title_activity_contactos"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="taos.timedestiny.bases.ChangeLocation"
+            android:label="@string/title_activity_cambio_dia"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="taos.timedestiny.menus.ContactosDetalles"
+            android:label="@string/title_activity_contactos_detalles"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="taos.timedestiny.eventos.Colegio"
+            android:label="@string/title_activity_scene"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="taos.timedestiny.eventos.Habitacion"
+            android:label="@string/title_activity_scene"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="taos.timedestiny.eventos.Heladeria"
+            android:label="@string/title_activity_scene"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="taos.timedestiny.eventos.Iglesia"
+            android:label="@string/title_activity_scene"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="taos.timedestiny.eventos.InicioBucle"
+            android:label="@string/title_activity_scene"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="taos.timedestiny.eventos.Museo"
+            android:label="@string/title_activity_scene"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="taos.timedestiny.eventos.Parque"
+            android:label="@string/title_activity_scene"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="taos.timedestiny.eventos.ParqueAtracciones"
+            android:label="@string/title_activity_scene"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="taos.timedestiny.eventos.ParqueInfantil"
+            android:label="@string/title_activity_scene"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="taos.timedestiny.eventos.Piscina"
+            android:label="@string/title_activity_scene"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="taos.timedestiny.eventos.Playa"
+            android:label="@string/title_activity_scene"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="taos.timedestiny.eventos.Recreo"
+            android:label="@string/title_activity_scene"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+</manifest>
