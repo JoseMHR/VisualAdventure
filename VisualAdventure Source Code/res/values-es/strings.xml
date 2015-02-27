@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tiempo Destino</string>
+    <string name="bienvenida">Bienvenido a Tiempo Destino</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="title_activity_scene">Scene</string>
+    <string name="title_activity_mapa_mundi">MapaMundi</string>
+    <string name="title_activity_contactos">Contactos</string>
+    <string name="title_activity_mobile_screen">MobileScreen</string>
+    <string name="title_activity_inventory">Inventory</string>
+    <string name="title_activity_status">Status</string>
+    <string name="descriptionimg">Esto es una imagen</string>
+    <string name="nuevapartida">Nueva Partida</string>
+    <string name="continuarpartida">Continuar</string>
+    <string name="salir">Salir</string>
+    <string name="nombre">Nombre</string>
+    <string name="edad">Edad</string>
+    <string name="personal">Personal</string>
+    <string name="sociable">Sociable</string>
+    <string name="conocimientos">Cono.</string>
+    <string name="fisico">Fisico</string>
+    <string name="regresar">Regresar</string>
+    <string name="inventory">Inventario</string>
+    <string name="dinero">Dinero</string>
+    <string name="contactos">Contactos</string>
+    <string name="status">Status</string>
+    <string name="mapa">Mapa</string>
+    <string name="hombre">Hombre</string>
+    <string name="mujer">Mujer</string>
+    <string name="LugarDesconocido">En algún lugar...</string>
+    <string name="FechaDesconocido">Dia X</string>
+    <string name="menuopciones">Menu de opciones</string>
+    <string name="guardar">Guardar</string>
+    <string name="cargar">Cargar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="title_activity_cambio_dia">CambioDia</string>
+    <string name="estado">Estado</string>
+    <string name="desconocido">Desconocido</string>
+    <string name="title_activity_contactos_detalles">ContactosDetalles</string>
+    <string name="ubicaciones">Ubicaciones</string>
+    <string name="aficiones">Aficiones</string>
+    <string name="habilidades">Habilidades</string>
+    <string name="uno">Uno</string>
+    <string name="llamar">Llamar</string>
+    <string name="eligedestino">Elige destino</string>
+    <string name="guarderia">Guarderia</string>
+    <string name="anos">años</string>
+    
+    <string name="EvInicio10">...</string>
+    <string name="EvInicio20">Soy el creador, el todo y la nada.</string>
+    <string name="EvInicio21">Has tenido un trágico destino.</string>
+    <string name="EvInicio22">Probablemente no te acuerdes de nada.</string>
+    <string name="EvInicio23">No te preocupes, tienes una nueva oportunidad.</string>
+    <string name="EvInicio24">Viajaras 24 horas al pasado...</string>
+    <string name="EvInicio25">...para averiguar porque estas en este punto.</string>
+    <string name="EvInicio30">¿Puedes recordar que sexo eras?</string>
+    <string name="EvInicio40a">Asi que eres un apuesto señorito.</string>
+    <string name="EvInicio40b">Asi que eres una hermosa señorita.</string>
+    <string name="EvInicio41">Muy bien, poco a poco...</string>
+    <string name="EvInicio42">...recordaras que ha pasado realmente.</string>
+    <string name="EvInicio43">Antes de regresar...</string>
+    <string name="EvInicio44">...haz un último esfuerzo en recordar tu nombre.</string>
+    <string name="EvInicio50">¿Como te llamas?</string>
+    <string name="EvInicio60">Todo listo, tu aventura esta apunto de comenzar.</string>
+    <string name="EvInicio61">Buena suerte.</string>
+    <string name="EvInicio70a">Empiezas a recordar que eras un apuesto hombre.</string>
+    <string name="EvInicio70b">Empiezas a recordar que eras una hermosa chica.</string>
+    <string name="EvInicio7x">Narrador</string>
+    <string name="EvInicio71">Pero no logras recordar ni tu edad, ni familiares.</string>
+    <string name="EvInicio72">Tu cabeza da vueltas. Sientes que estas despertandote.</string>
+    <string name="EvInicio73">Abres los ojos, y sabes solo una cosa. Te llamas  </string>
+    
+    <string name="EvInicioBucle10">...</string>
+    <string name="EvInicioBucle20">No has logrado averiguar nada.</string>
+    <string name="EvInicioBucle21">Las oportunidades se te agotan.</string>
+    <string name="EvInicioBucle22">Vuelve a empezar</string>
+    <string name="EvInicioBucle23">...</string>
+    
+    <string name="EvHab20">¡Despierta dormilon! Ya es de día.</string>
+    <string name="EvHab21">Me deje ayer el movil en tu cuarto...</string>
+    <string name="EvHab22">...solo vine a recogerlo.</string>
+    <string name="EvHab23">Nos vemos luego en el lugar de siempre.</string>
+    <string name="EvHab24">Recuerda lo que me prometiste.</string>
+    <string name="EvHab25">Toma esto para que no se te olvide.</string>
+    <string name="EvHab30">¡Nos vemos!</string>
+    
+    <string name="nuevoobjeto">¡Has conseguido un nuevo objeto!</string>
+    <string name="aceptar">Aceptar</string>
+	<string name="time">Tiempo</string>
+	<string name="genero">Genero</string>  	
+
+</resources>
