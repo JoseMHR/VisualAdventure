@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Time Destiny</string>
+    <string name="bienvenida">Wellcome to Time Destiny</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="title_activity_scene">Scene</string>
+    <string name="title_activity_mapa_mundi">MapaMundi</string>
+    <string name="title_activity_contactos">Contacts</string>
+    <string name="title_activity_mobile_screen">MobileScreen</string>
+    <string name="title_activity_inventory">Inventory</string>
+    <string name="title_activity_status">Status</string>
+    <string name="descriptionimg">This is a imagen</string>
+    <string name="nuevapartida">New Game</string>
+    <string name="continuarpartida">Continue</string>
+    <string name="salir">Exit</string>
+    <string name="nombre">Name</string>
+    <string name="edad">Age</string>
+    <string name="personal">Personal</string>
+    <string name="sociable">Sociable</string>
+    <string name="conocimientos">Cono.</string>
+    <string name="fisico">Physical</string>
+    <string name="regresar">Return</string>
+    <string name="inventory">Inventary</string>
+    <string name="dinero">Gold</string>
+    <string name="contactos">Contacts</string>
+    <string name="status">Status</string>
+    <string name="mapa">Map</string>
+    <string name="hombre">Man</string>
+    <string name="mujer">Woman</string>
+    <string name="LugarDesconocido">Somewhere...</string>
+    <string name="FechaDesconocido">Day X</string>
+    <string name="menuopciones">Options menu</string>
+    <string name="guardar">Save</string>
+    <string name="cargar">Load</string>
+    <string name="cancelar">Cancel</string>
+    <string name="title_activity_cambio_dia">ChangeDay</string>
+    <string name="estado">Status</string>
+    <string name="desconocido">Unknown</string>
+    <string name="title_activity_contactos_detalles">ContactsDetails</string>
+    <string name="ubicaciones">Locations</string>
+    <string name="aficiones">Hobbies</string>
+    <string name="habilidades">Skills</string>
+    <string name="uno">One</string>
+    <string name="llamar">Call</string>
+    <string name="eligedestino">Choose destination</string>
+    <string name="guarderia">Kinder</string>
+    <string name="anos">Ages</string>
+    
+    <string name="EvInicio10">...</string>
+    <string name="EvInicio20">I am the creator, everything and nothing.</string>
+    <string name="EvInicio21">You had a tragic fate.</string>
+    <string name="EvInicio22">You probably dont remember anything.</string>
+    <string name="EvInicio23">Dont worry, you have another chance.</string>
+    <string name="EvInicio24">You will travel to the past 24 hours...</string>
+    <string name="EvInicio25">...to find out why you are here.</string>
+    <string name="EvInicio30">Can you remember what sex you were?</string>
+    <string name="EvInicio40a">So you are a gentleman.</string>
+    <string name="EvInicio40b">So you are a lady.</string>
+    <string name="EvInicio41">Well, little by little ...</string>
+    <string name="EvInicio42">... will remember really happened.</string>
+    <string name="EvInicio43">Before returning ...</string>
+    <string name="EvInicio44">... make a last effort to remember your name.</string>
+    <string name="EvInicio50">What is your name?</string>
+    <string name="EvInicio60">All ready, your adventure is about to begin.</string>
+    <string name="EvInicio61">Good luck.</string>
+    <string name="EvInicio70a">You begin to remember you were a handsome men.</string>
+    <string name="EvInicio70b">You begin to remember that you were a beautiful girl.</string>
+    <string name="EvInicio7x">Narrator</string>
+	<string name="EvInicio71">But you fail to remember or your age, or family.</string>
+	<string name="EvInicio72">Your head is spinning. Feel you are waking up.</string>
+	<string name="EvInicio73">You open your eyes, and you know your name...</string>
+	
+	<string name="EvInicioBucle10">...</string>
+    <string name="EvInicioBucle20">You have not managed to find anything.</string>
+    <string name="EvInicioBucle21">Opportunities will run out.</string>
+    <string name="EvInicioBucle22">Try again!</string>
+    <string name="EvInicioBucle23">...</string>
+    
+    <string name="EvHab20">Wake up sleepyhead! Already it is day.</string>
+    <string name="EvHab21">Yesterday I let the phone in your room ...</string>
+    <string name="EvHab22">... I just came to pick it up.</string>
+    <string name="EvHab23">We then see in the usual place.</string>
+    <string name="EvHab24">Remember what you promised me.</string>
+    <string name="EvHab25">Take this so you do not forget.</string>
+    <string name="EvHab30">See you!</string>
+    
+	<string name="nuevoobjeto">Have you found a new item</string>
+	
+	<string name="aceptar">OK</string>
+	<string name="time">Time</string>
+	<string name="genero">Sex</string>  	
+</resources>
