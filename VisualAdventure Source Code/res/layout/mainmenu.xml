@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="taos.timedestiny.MainMenu"
+    tools:ignore="MergeRootFrame" >
+
+     <com.google.android.gms.ads.AdView android:id="@+id/adView"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         ads:adUnitId="ca-app-pub-4116840717941176/6362327644"
+                         ads:adSize="BANNER"/>
+     
+    <Button
+        android:id="@+id/cargar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/myboton"
+        android:onClick="onSalir"
+        android:text="@string/salir"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/moreText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/cargar"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/myboton"
+        android:onClick="onContinuar"
+        android:text="@string/continuarpartida"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/viajar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/moreText"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/myboton"
+        android:onClick="onComenzar"
+        android:text="@string/nuevapartida"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textNombreField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="38dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/bienvenida"
+        android:textColor="@android:color/white"
+        android:textSize="54sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+

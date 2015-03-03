@@ -1,0 +1,20 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="taos.timedestiny.Main"
+    tools:ignore="MergeRootFrame" >
+
+    <TextView
+        android:id="@+id/textNombreField"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/bienvenida"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+</FrameLayout>
+
