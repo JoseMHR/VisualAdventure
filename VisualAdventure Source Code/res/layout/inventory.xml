@@ -1,0 +1,215 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="taos.timedestiny.menus.Inventory"
+    tools:ignore="MergeRootFrame" >
+
+    <TextView
+        android:id="@+id/textUbicacion"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/inventory"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <ImageButton
+                android:id="@+id/item1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/myborder"
+                android:contentDescription="@string/descriptionimg"
+                android:minHeight="60dp"
+                android:onClick="onItem1"
+                android:src="@drawable/bagd" />
+
+            <ImageButton
+                android:id="@+id/item2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/myborder"
+                android:contentDescription="@string/descriptionimg"
+                android:minHeight="60dp"
+                android:onClick="onItem2"
+                android:src="@drawable/bagd" />
+
+            <ImageButton
+                android:id="@+id/item3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/myborder"
+                android:contentDescription="@string/descriptionimg"
+                android:minHeight="60dp"
+                android:onClick="onItem3"
+                android:src="@drawable/bagd" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <ImageButton
+                android:id="@+id/item4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/myborder"
+                android:contentDescription="@string/descriptionimg"
+                android:minHeight="60dp"
+                android:onClick="onItem4"
+                android:src="@drawable/bagd" />
+
+            <ImageButton
+                android:id="@+id/item5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/myborder"
+                android:contentDescription="@string/descriptionimg"
+                android:minHeight="60dp"
+                android:onClick="onItem5"
+                android:src="@drawable/bagd" />
+
+            <ImageButton
+                android:id="@+id/item6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/myborder"
+                android:contentDescription="@string/descriptionimg"
+                android:minHeight="60dp"
+                android:onClick="onItem6"
+                android:src="@drawable/bagd" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <ImageButton
+                android:id="@+id/item7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/myborder"
+                android:contentDescription="@string/descriptionimg"
+                android:minHeight="60dp"
+                android:onClick="onItem7"
+                android:src="@drawable/bagd" />
+
+            <ImageButton
+                android:id="@+id/item8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/myborder"
+                android:contentDescription="@string/descriptionimg"
+                android:minHeight="60dp"
+                android:onClick="onItem8"
+                android:src="@drawable/bagd" />
+
+            <ImageButton
+                android:id="@+id/item9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/myborder"
+                android:contentDescription="@string/descriptionimg"
+                android:minHeight="60dp"
+                android:onClick="onItem9"
+                android:src="@drawable/bagd" />
+
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:paddingTop="15dp" >
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/myborder"
+            android:minWidth="100dp"
+            android:text="@string/dinero"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextDinero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/myborder"
+            android:text="@string/dinero"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/ImageButton03"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/myborder"
+            android:contentDescription="@string/descriptionimg"
+            android:minHeight="60dp"
+            android:onClick="onRegresar"
+            android:src="@drawable/no" />
+
+        <ImageButton
+            android:id="@+id/ImageButton02"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/myborder"
+            android:contentDescription="@string/descriptionimg"
+            android:minHeight="60dp"
+            android:onClick="onStatus"
+            android:src="@drawable/personal" />
+
+        <ImageButton
+            android:id="@+id/ImageButton01"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/myborder"
+            android:contentDescription="@string/descriptionimg"
+            android:minHeight="60dp"
+            android:onClick="onMap"
+            android:src="@drawable/map" />
+    </LinearLayout>
+
+</LinearLayout>
