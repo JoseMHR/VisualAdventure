@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/idcabecera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textHora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.12"
+            android:background="@drawable/myborder"
+            android:minWidth="100dp"
+            android:text="AAAA"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textLugar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/myborder"
+            android:minWidth="100dp"
+            android:text="AAAA"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="99999" >
+
+        <ImageView
+            android:id="@+id/idFondo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/myborder"
+            android:contentDescription="@string/descriptionimg"
+            android:scaleType="fitXY"
+            android:src="@drawable/myboton" />
+
+        <ImageView
+            android:id="@+id/imagenA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:contentDescription="@string/descriptionimg"
+            android:minHeight="200dp"
+            android:minWidth="150dp"
+            android:src="@drawable/myboton" />
+
+        <ImageView
+            android:id="@+id/imagenB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:contentDescription="@string/descriptionimg"
+            android:minHeight="200dp"
+            android:minWidth="150dp"
+            android:src="@drawable/myboton" />
+
+        <Button
+            android:id="@+id/opcion1"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/myboton"
+            android:minHeight="50dp"
+            android:minWidth="150dp"
+            android:onClick="onOpcion1"
+            android:textColor="@android:color/white"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/opcion2"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/myboton"
+            android:minHeight="50dp"
+            android:minWidth="150dp"
+            android:onClick="onOpcion2"
+            android:textColor="@android:color/white"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/opcion3"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/myboton"
+            android:minHeight="50dp"
+            android:minWidth="150dp"
+            android:onClick="onOpcion3"
+            android:textColor="@android:color/white"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/opcion4"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="180dp"
+            android:background="@drawable/myboton"
+            android:minHeight="50dp"
+            android:minWidth="150dp"
+            android:onClick="onOpcion4"
+            android:textColor="@android:color/white"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/opcion5"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="240dp"
+            android:background="@drawable/myboton"
+            android:minHeight="50dp"
+            android:minWidth="150dp"
+            android:onClick="onOpcion5"
+            android:textColor="@android:color/white"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/myborder"
+            android:textColor="@android:color/black"
+            android:ems="10"
+            android:gravity="center_vertical|center_horizontal"
+            android:inputType="textPersonName"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/actorActivo"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/myborder"
+            android:text="@string/bienvenida"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/texto"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/myborder"
+            android:text="@string/bienvenida"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/viajar"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/mybotondark"
+                android:contentDescription="@string/descriptionimg"
+                android:minWidth="32dip"
+                android:onClick="onBeforeText"
+                android:src="@drawable/up" />
+
+            <ImageButton
+                android:id="@+id/salir"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/myboton"
+                android:contentDescription="@string/descriptionimg"
+                android:minWidth="32dip"
+                android:onClick="onNextText"
+                android:src="@drawable/down" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/idbuttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/myborder"
+        android:orientation="horizontal"
+        android:padding="1dp" >
+
+        <ImageButton
+            android:id="@+id/idoptions"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="fill_horizontal"
+            android:layout_weight="0.98"
+            android:background="@drawable/myboton"
+            android:contentDescription="@string/descriptionimg"
+            android:minHeight="60dp"
+            android:onClick="onOptions"
+            android:src="@drawable/options" />
+
+        <ImageButton
+            android:id="@+id/idactions"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="fill_vertical"
+            android:layout_weight="0.98"
+            android:background="@drawable/myboton"
+            android:contentDescription="@string/descriptionimg"
+            android:minHeight="60dp"
+            android:onClick="onAction"
+            android:src="@drawable/telefono" />
+
+        <ImageButton
+            android:id="@+id/idbag"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/myboton"
+            android:contentDescription="@string/descriptionimg"
+            android:minHeight="60dp"
+            android:onClick="onBag"
+            android:src="@drawable/bag" />
+
+        <ImageButton
+            android:id="@+id/idnext"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:layout_weight="0.99"
+            android:background="@drawable/myboton"
+            android:contentDescription="@string/descriptionimg"
+            android:fitsSystemWindows="true"
+            android:minHeight="60dp"
+            android:onClick="onNext"
+            android:src="@drawable/next" />
+    </LinearLayout>
+
+</LinearLayout>
