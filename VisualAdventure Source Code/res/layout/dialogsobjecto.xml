@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="taos.timedestiny.menus.Inventory"
+    tools:ignore="MergeRootFrame" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/myboton"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/nuevoobjeto"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/imageobjetonuevo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/myborder"
+        android:minHeight="200dp"
+        android:src="@drawable/stadistic" />
+
+    <Button
+        android:id="@+id/aceptar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/myboton"
+        android:text="@string/aceptar"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
